@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from googletrans import Translator
 from langdetect import detect
+import torch
 
 def detect_language(text):
     try:
@@ -19,8 +20,8 @@ def translate_text(text, dest_lang):
         return text
 
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
-    model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B")
+    tokenizer = AutoTokenizer.from_pretrained("model/finetuned_llama3.2")
+    model = AutoModelForCausalLM.from_pretrained("model/finetuned_llama3.2")
 
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token_id = tokenizer.eos_token_id
@@ -50,10 +51,13 @@ def chatbot_response(user_input, merchant_name, insights):
 
     input_text = f"{system_message}\nUser: {user_input_en}\nAssistant:"
 
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+
     # Use tokenizer that returns attention_mask
     inputs = tokenizer(input_text, return_tensors="pt", truncation=True, max_length=2048)
-    input_ids = inputs["input_ids"]
-    attention_mask = inputs["attention_mask"]
+    input_ids = inputs["input_ids"].to(device)
+    attention_mask = inputs["attention_mask"].to(device)
 
     outputs = model.generate(
         input_ids=input_ids,

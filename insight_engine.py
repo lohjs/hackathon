@@ -4,8 +4,8 @@ def get_merchant_insights(merchant_id, data):
     df = data[data['merchant_id'] == merchant_id]
 
     total_orders = df['order_id'].nunique()
-    total_sales = df['order_value'].sum()
-    avg_order_value = df['order_value'].mean()
+    total_sales = df['item_price'].sum()
+    avg_order_value = total_sales / total_orders
     top_items = (
         df.groupby('item_name')['order_id'].count()
         .sort_values(ascending=False)
@@ -13,10 +13,8 @@ def get_merchant_insights(merchant_id, data):
     )
 
     alerts = []
-    if avg_order_value < 15:
+    if avg_order_value < 5:
         alerts.append("Your average order value is below RM15. Consider offering bundles or set meals.")
-    if total_orders < 30:
-        alerts.append("Low order count this month. Boost visibility with promotions.")
 
     return {
         "total_orders": total_orders,

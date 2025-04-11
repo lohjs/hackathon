@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which of my items had the highest total revenue last month, and how does it compare to the previous month?",
+        "answer": "Last month, your top-selling item was Spicy Chicken Rice, generating RM4,250 in revenue  a 12% increase from RM3,780 the previous month. This growth suggests strong repeat demand or successful recent promotions."
+    },
+    {
+        "question": "What was the average basket size for each day this week?",
+        "answer": "Heres your average basket size by day this week: Monday: 2.6 items; Tuesday: 3.1 items; Wednesday: 2.9 items; Thursday: 3.4 items; Friday: 3.7 items; Saturday: 4.0 items; Sunday: 3.8 items; Your weekend basket sizes are consistently. larger, indicating a good opportunity to upsell combo meals."
+    },
+    {
+        "question": "Which items were frequently ordered together last month?",
+        "answer": "Customers often ordered Nasi Lemak and Iced Milo together appearing in 220 joint transactions. Consider bundling these into a meal combo with a small discount."
+    },
+    {
+        "question": "Which days had unusually low sales compared to my weekly average?",
+        "answer": "This week, Tuesday and Wednesday recorded 18% and 22% below-average sales, respectively. You might consider targeted discounts or voucher campaigns for midweek boosts."
+    },
+    {
+        "question": "Based on my sales and merchant profile, what item should I consider adding to my menu?",
+        "answer": "Based on trends from similar merchants in your area and strong customer demand, consider adding Grilled Chicken Wraps. Merchants offering this saw a 15% rise in lunch hour sales."
+    },
+    {
+        "question": "Which keywords should I use to promote my underperforming items?",
+        "answer": "For your underperforming item Cheesy Fries, try promoting with high-performing keywords like snack deal, cheese lover, and craving fix. These terms drive higher click-through rates in your category."
+    },
+    {
+        "question": "Which three items should I mark as featured based on popularity trends?",
+        "answer": "We recommend featuring these items: Chicken Katsu Bowl 24% increase in orders this week; Mango Smoothie viral on social media; Fried Dumplings consistently rated 4.8/5 by customers; These are great for maximizing visibility and conversions."
+    },
+    {
+        "question": "What price changes should I make for items that haven\ufffdt sold in the last 30 days?",
+        "answer": "The following items had zero sales in the past 30 days: Seafood Tom Yum (Current Price: RM18.90); Matcha Latte (Current Price: RM9.50); Consider reducing prices by 10 to 15% or including them in a value set to reintroduce demand."
+    },
+    {
+        "question": "Which menu items have high cancellation rates and how can I reduce them?",
+        "answer": "Crispy Chicken Wings had a 12% cancellation rate last month, often due to long prep times during peak hours. Consider prepping partially in advance or marking availability as limited during rush periods."
+    },
+    {
+        "question": "Which customer segments order most frequently and what do they prefer?",
+        "answer": "Frequent orders are made by customers aged 25 to 34, primarily during weekday lunches. Their favorites are Teriyaki Chicken Bento and Thai Milk Tea. Target them with lunchtime combos or loyalty rewards to boost retention."
+    },
+    {
+        "question": "What time of day do I receive the most orders?",
+        "answer": "Your peak ordering time is between 12:00 PM and 1:30 PM, especially on weekdays. Consider scheduling more staff or running lunch promos during this period to increase throughput."
+    },
+    {
+        "question": "How many of my customers placed repeat orders this month?",
+        "answer": "About 38% of your customers this month placed at least one repeat order. These customers mostly reorder the Buttermilk Chicken Rice and Thai Milk Tea. Rewarding them with loyalty perks could further boost retention."
+    },
+    {
+        "question": "Are there any items that are becoming less popular over time?",
+        "answer": "Yes, orders for Salted Egg Chicken Wings have dropped by 30% over the past three weeks. You might consider repositioning it in the menu or promoting it with trending keywords."
+    },
+    {
+        "question": "Which of my keywords are driving the most conversions?",
+        "answer": "The keywords spicy deal, local favourite, and lunch combo are leading to the most item clicks and conversions. Use these in promotions for high-margin meals."
+    },
+    {
+        "question": "Who is my top customer and what do they usually order?",
+        "answer": "Your top customer is a 28-year-old male working in Bangsar who has ordered 14 times this month. He consistently chooses the Spicy Chicken Bento and Green Tea Latte. Consider offering him a personalized loyalty discount or early access to new menu items."
+    },
+    {
+        "question": "Which channel brings more sales \ufffd app or website?",
+        "answer": "This month, 78% of your total orders came through the Grab app, while 22% were from the web platform. App users tend to spend 15% more per transaction. Focusing promotions on mobile users can yield higher ROI."
+    },
+    {
+        "question": "What are customers saying most about my food?",
+        "answer": "Recent reviews often mention delicious but slow delivery and large portions. Customers appreciate your portion size, but some mention late delivery during peak hours. Coordinating prep time with riders could improve satisfaction."
+    },
+    {
+        "question": "How did my RM5 off promo affect my sales?",
+        "answer": "The RM5OFF promotion led to a 22% spike in order volume, especially among first-time customers. However, the average order value remained stable, indicating that you successfully acquired new customers without reducing basket size."
+    },
+    {
+        "question": "Do I have customers who haven't ordered in a while?",
+        "answer": "Yes, around 112 customers who ordered in February have not placed any orders in March. You could re-engage them with a personalized reactivation promo such as Welcome Back 10% Off Your Favourites."
+    },
+    {
+        "question": "I\ufffdm planning to launch a new vegetarian item. What cuisine or style is most likely to perform well?",
+        "answer": "Based on your customer base and popular trends in your area, Thai-style tofu stir fry or Vegetarian Curry Puffs are likely to perform well. Consider launching them with free delivery or a BOGO deal to encourage trials."
+    }
+]
