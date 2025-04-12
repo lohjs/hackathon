@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load CSVs
+# Load datasets
 items = pd.read_csv("dataset/items.csv")
 keywords = pd.read_csv("dataset/keywords.csv")
 merchant = pd.read_csv("dataset/merchant.csv")
@@ -30,5 +30,4 @@ selected_columns = ['order_id', 'order_time', 'driver_arrival_time', 'driver_pic
 
 merged_data = pd.DataFrame(merged_data, columns=selected_columns)
 
-# Save cleaned & merged data
 merged_data.to_csv("dataset/merged_data.csv", index=False)
