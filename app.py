@@ -3,10 +3,8 @@ import pandas as pd
 from insight_engine import get_merchant_insights
 from chatbot_engine import chatbot_response
 
-# Load cleaned data
 data = pd.read_csv("dataset/merged_data.csv")
 
-# Sidebar – Select merchant
 merchant_options = (
     data[['merchant_id', 'merchant_name']]
     .drop_duplicates()
