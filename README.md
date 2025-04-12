@@ -10,3 +10,6 @@ PPTX: https://docs.google.com/presentation/d/1BuIdPaYCQ9p8RGP7-v7N85P0NvhbpqEu/e
 
 Documentation:
 https://docs.google.com/document/d/1O0N9bZCtnjWYk_CzH_EERpzMg3EJDh945FluA5bczto/edit?usp=sharing
+
+Demo video: 
+https://drive.google.com/file/d/1b-aLTH8Pp9qKpB0gjQyMB7JFlwLQd7dX/view?usp=sharing
